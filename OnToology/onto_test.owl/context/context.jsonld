@@ -1,0 +1,50 @@
+{
+  "@context" : {
+    "belongsTo" : {
+      "@id" : "https://www.datos.test.es/def/dummy#belongsTo",
+      "@type" : "@id"
+    },
+    "treated_with" : {
+      "@id" : "https://www.datos.test.es/def/dummy#treated_with",
+      "@type" : "@id"
+    },
+    "hasBaremoDescription" : {
+      "@id" : "https://www.datos.test.es/def/dummy#hasBaremoDescription",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Disease" : {
+      "@id" : "https://www.datos.test.es/def/dummy#Disease"
+    },
+    "affects" : {
+      "@id" : "https://www.datos.test.es/def/dummy#affects",
+      "@type" : "@id"
+    },
+    "causes" : {
+      "@id" : "https://www.datos.test.es/def/dummy#causes",
+      "@type" : "@id"
+    },
+    "Symptom" : {
+      "@id" : "https://www.datos.test.es/def/dummy#Symptom"
+    },
+    "Body_part" : {
+      "@id" : "https://www.datos.test.es/def/dummy#Body_part"
+    },
+    "Baremo" : {
+      "@id" : "https://www.datos.test.es/def/dummy#Baremo"
+    },
+    "hasBaremoCode" : {
+      "@id" : "https://www.datos.test.es/def/dummy#hasBaremoCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Document" : {
+      "@id" : "https://www.datos.test.es/def/dummy#Document"
+    },
+    "hasBaremo" : {
+      "@id" : "https://www.datos.test.es/def/dummy#hasBaremo",
+      "@type" : "@id"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+<https://www.datos.test.es/def/dummy#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://www.datos.test.es/def/dummy#> <http://www.w3.org/2002/07/owl#versionIRI> <https://www.datos.test.es/def/dummy#1.0.0> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://www.datos.test.es/def/dummy#affects
+<https://www.datos.test.es/def/dummy#affects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.datos.test.es/def/dummy#affects> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.datos.test.es/def/dummy#Disease> .
+<https://www.datos.test.es/def/dummy#affects> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.datos.test.es/def/dummy#Body_part> .
+<https://www.datos.test.es/def/dummy#affects> <http://www.w3.org/2000/01/rdf-schema#label> "affects" .
+# 
+# https://www.datos.test.es/def/dummy#belongsTo
+<https://www.datos.test.es/def/dummy#belongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.datos.test.es/def/dummy#belongsTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.datos.test.es/def/dummy#Disease> .
+<https://www.datos.test.es/def/dummy#belongsTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.datos.test.es/def/dummy#Baremo> .
+<https://www.datos.test.es/def/dummy#belongsTo> <http://www.w3.org/2000/01/rdf-schema#label> "belongsTo" .
+# 
+# https://www.datos.test.es/def/dummy#causes
+<https://www.datos.test.es/def/dummy#causes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.datos.test.es/def/dummy#causes> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.datos.test.es/def/dummy#Disease> .
+<https://www.datos.test.es/def/dummy#causes> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.datos.test.es/def/dummy#Symptom> .
+<https://www.datos.test.es/def/dummy#causes> <http://www.w3.org/2000/01/rdf-schema#label> "causes" .
+# 
+# https://www.datos.test.es/def/dummy#hasBaremo
+<https://www.datos.test.es/def/dummy#hasBaremo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.datos.test.es/def/dummy#hasBaremo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.datos.test.es/def/dummy#Document> .
+<https://www.datos.test.es/def/dummy#hasBaremo> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.datos.test.es/def/dummy#Baremo> .
+<https://www.datos.test.es/def/dummy#hasBaremo> <http://www.w3.org/2000/01/rdf-schema#label> "hasBaremo" .
+# 
+# https://www.datos.test.es/def/dummy#treated_with
+<https://www.datos.test.es/def/dummy#treated_with> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.datos.test.es/def/dummy#treated_with> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.datos.test.es/def/dummy#Disease> .
+<https://www.datos.test.es/def/dummy#treated_with> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.datos.test.es/def/dummy#Symptom> .
+<https://www.datos.test.es/def/dummy#treated_with> <http://www.w3.org/2000/01/rdf-schema#label> "treated_with" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://www.datos.test.es/def/dummy#hasBaremoCode
+<https://www.datos.test.es/def/dummy#hasBaremoCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.datos.test.es/def/dummy#hasBaremoCode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.datos.test.es/def/dummy#Baremo> .
+<https://www.datos.test.es/def/dummy#hasBaremoCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://www.datos.test.es/def/dummy#hasBaremoCode> <http://www.w3.org/2000/01/rdf-schema#label> "hasBaremoCode" .
+# 
+# https://www.datos.test.es/def/dummy#hasBaremoDescription
+<https://www.datos.test.es/def/dummy#hasBaremoDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.datos.test.es/def/dummy#hasBaremoDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.datos.test.es/def/dummy#Baremo> .
+<https://www.datos.test.es/def/dummy#hasBaremoDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://www.datos.test.es/def/dummy#hasBaremoDescription> <http://www.w3.org/2000/01/rdf-schema#label> "hasBaremoDescription" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://www.datos.test.es/def/dummy#Baremo
+<https://www.datos.test.es/def/dummy#Baremo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://www.datos.test.es/def/dummy#Body_part
+<https://www.datos.test.es/def/dummy#Body_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://www.datos.test.es/def/dummy#Disease
+<https://www.datos.test.es/def/dummy#Disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://www.datos.test.es/def/dummy#Document
+<https://www.datos.test.es/def/dummy#Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://www.datos.test.es/def/dummy#Symptom
+<https://www.datos.test.es/def/dummy#Symptom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
